@@ -17,7 +17,7 @@ Thanks~ 😀
 需要注意的是教材中的DES与实际投入使用的DES不太一样，在某些文献中，作为算法的DES被称为DEA(Data Encryption Algorithm，数据加密算法)，以与作为标准的DES区分开来。所以严格来说，本项目是对DEA的实现。详情参照[DES_维基百科](https://zh.m.wikipedia.org/zh/%E8%B3%87%E6%96%99%E5%8A%A0%E5%AF%86%E6%A8%99%E6%BA%96)。  
 针对工作模式的描述参考[分组密码工作模式_维基百科](https://zh.m.wikipedia.org/zh-hans/%E5%88%86%E7%BB%84%E5%AF%86%E7%A0%81%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F#%E7%94%B5%E5%AD%90%E5%AF%86%E7%A0%81%E6%9C%AC%EF%BC%88ECB%EF%BC%89)。  
 
-在项目的test文件夹中有一个名为[Whole_Process_Of_Single_DES(点击下载)](https://github.com/goon-13/DES/raw/main/test/Whole_Process_Of_Single_DES.xlsx)的excel表格文件，我使用excel函数实现了针对一个分组的DES流程，方便学习时理解以及测试程序输出数据的正确性。  
+**在项目的test文件夹中有一个名为[Whole_Process_Of_Single_DES(点击下载)](https://github.com/goon-13/DES/raw/main/test/Whole_Process_Of_Single_DES.xlsx)的excel表格文件，我使用excel函数实现了针对一个分组的DES流程，方便学习时理解以及测试程序输出数据的正确性。**  
 
 经过测试在合法的参数输入下程序能正常运行。对一些可能的非法输入有进行了校验，但可能有些没有考虑周到的错误输入不能正确处理，如果发现了错误以及不规范之处希望能帮忙指出，非常感谢~
 
@@ -25,7 +25,7 @@ The code is the C implementation of Data Encryption Standard(DES) in the Cryptog
 It should be noted that the DES in the textbook is different from the DES actually put into use. In some literatures, the DES as an algorithm is called DEA(Data Encryption Algorithm) to distinguish it from the DES as a standard. So strictly speaking, this project is the realization of DEA. Refer to [DES(Wikipedia)](https://zh.m.wikipedia.org/zh/%E8%B3%87%E6%96%99%E5%8A%A0%E5%AF%86%E6%A8%99%E6%BA%96) for details.  
 For the description of the operation mode, refer to the block [Block cipher mode of operation(Wikipedia)](https://zh.m.wikipedia.org/zh-hans/%E5%88%86%E7%BB%84%E5%AF%86%E7%A0%81%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F#%E7%94%B5%E5%AD%90%E5%AF%86%E7%A0%81%E6%9C%AC%EF%BC%88ECB%EF%BC%89).
 
-In the test folder of the project, there is a file named [Whole_Process_Of_Single_DES(Click Download)](https://github.com/goon-13/DES/raw/main/test/Whole_Process_Of_Single_DES.xlsx), which is a Excel table file. I used excel functions to implement the DES process for one DES data block, which is convenient for understanding during learning and testing the correctness of the program's output data.  
+**In the test folder of the project, there is a file named [Whole_Process_Of_Single_DES(Click Download)](https://github.com/goon-13/DES/raw/main/test/Whole_Process_Of_Single_DES.xlsx), which is a Excel table file. I used excel functions to implement the DES process for one DES data block, which is convenient for understanding during learning and testing the correctness of the program's output data.**  
 
 After testing, the program can run normally with legal parameter input. Some possible illegal inputs have been verified, but maybe some inadvertent incorrect inputs cannot be handled correctly. If errors and irregularities are found, I hope you can point them out. Thank you very much~
 
