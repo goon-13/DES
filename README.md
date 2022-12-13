@@ -19,8 +19,8 @@ Thanks~ 😀
 
 **在项目的test文件夹中有一个名为[Whole_Process_Of_Single_DES(点击下载)](https://github.com/goon-13/DES/raw/main/test/Whole_Process_Of_Single_DES.xlsx)的excel表格文件，我使用excel函数实现了针对一个分组的DES流程，方便学习时理解以及测试程序输出数据的正确性。**   
 在EXCEL文件的最上方按照每字节以**2位16进制**的格式输入8B(64bit)的明文和密钥，文件便会计算出对应的密文输出在下方。文件下方可以查看对一个8B分组明文的DES加密过程的每一步的输出。  
-[EXCEL_use](https://github.com/goon-13/DES/blob/main/img/1_EXCEL_use.jpg)  
-[EXCEL_usage](https://github.com/goon-13/DES/blob/main/img/2_EXCEL_usage.jpg)
+![EXCEL_use](https://github.com/goon-13/DES/blob/main/img/1_EXCEL_use.jpg)  
+![EXCEL_usage](https://github.com/goon-13/DES/blob/main/img/2_EXCEL_usage.jpg)
 
 经过测试在合法的参数输入下程序能正常运行。对一些可能的非法输入有进行了校验，但可能有些没有考虑周到的错误输入不能正确处理，如果发现了错误以及不规范之处希望能帮忙指出，非常感谢~
 
