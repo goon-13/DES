@@ -5,13 +5,10 @@
 命令行选项参数解析在windows x64环境下使用[alex85k](https://github.com/alex85k)的[wingetopt](https://github.com/alex85k/wingetopt)。  
 关于getopt()的使用参考[getopt-优雅地处理命令行参数](https://www.yanbinghu.com/2019/08/17/57486.html)。  
 
-感谢~😀
-
 Refer to the 的[DES](https://github.com/tarequeh/DES) of [tarequeh](https://github.com/tarequeh), the program is also used through the command line like tarequeh.  
 The command line option parameter resolution uses the [wingetopt](https://github.com/alex85k/wingetopt) of [alex85k](https://github.com/alex85k) in the Windows x64 environment.  
 The reference for using getopt(): [getopt-gracefully handles command line arguments](https://www.yanbinghu.com/2019/08/17/57486.html).
 
-Thanks~ 😀
 ## 简介-Brief Introduction
 代码为密码学教材("Cryptography Theory and Practice Third Edition")中Data Encryption Standard(DES)的C语言实现。程序通过命令行使用。  
 需要注意的是教材中的DES与实际投入使用的DES不太一样，在某些文献中，作为算法的DES被称为DEA(Data Encryption Algorithm，数据加密算法)，以与作为标准的DES区分开来。所以严格来说，本项目是对DEA的实现。详情参照[DES_维基百科](https://zh.m.wikipedia.org/zh/%E8%B3%87%E6%96%99%E5%8A%A0%E5%AF%86%E6%A8%99%E6%BA%96)。  
