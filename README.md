@@ -73,8 +73,7 @@ Handling of some possible illegal inputs.
 ![win_error1_folder_not_exist.jpg](https://github.com/goon-13/DES/blob/main/img/win/7_win_error1_folder_not_exist.jpg)
 
 ## 更多-More
-代码还有许多需要优化的地方，并且目前仅在windows x64环境下可用，linux环境的兼容还在实现中。  
-后续会继续使用C语言实现其他的加解密方式。
+代码还有许多需要优化的地方，并且目前仅在windows x64环境下可用。
 
 The code still needs to be optimized, and it is only available in the Windows x64 environment at present. The compatibility of the Linux environment is still in the process of implementation.
 Later, I will continue to use C language to implement other encryption and decryption methods.
